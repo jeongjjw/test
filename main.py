@@ -12,6 +12,7 @@ def main():
         element['input_output']=json.loads(element['input_output'])
 
         for sol in element['solutions']:
+            # print(modify(sol)
             # test=generate(sol)
             pass
 
